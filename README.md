@@ -1,3 +1,42 @@
+# AI Experts Assignment (JS/TS)  
+## Running Tests Locally and with Docker
+
+This guide explains how to run the AI Experts Assignment test suite locally and inside Docker.
+
+---
+
+## 1. Run Tests Locally
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run tests:
+
+```bash
+npm test
+```
+
+---
+
+## 2. Run Tests with Docker
+
+1. Build Docker image:
+
+```bash
+docker build -t ai-experts-assignment .
+```
+
+2. Run tests in Docker container:
+
+```bash
+docker run --rm ai-experts-assignment
+```
+
+---
+
 # AI Experts Assignment (JS/TS)
 
 This assignment evaluates your ability to:
